@@ -1,0 +1,38 @@
+.logo {
+    margin: var(--lumo-space-m);
+}
+
+.menu-navigation {
+    display: flex;
+    flex-direction: column;
+    padding: var(--lumo-space-s);
+    margin-left: var(--lumo-space-m);
+    margin-right: var(--lumo-space-xs);
+}
+
+.menu-navigation a {
+    padding: var(--lumo-space-m);
+    text-decoration: none;
+    display: block;
+    color: var(--lumo-body-text-color);
+    border-radius: var(--lumo-border-radius);
+}
+
+.menu-navigation a:hover {
+    background-color: var(--lumo-contrast-10pct);
+}
+
+.menu-navigation a.active {
+    background-color: var(--lumo-primary-color-10pct);
+    color: var(--lumo-primary-color);
+    font-weight: bold;
+}
+
+/* Styl dla drawera, aby miał stałą szerokość i odstęp od krawędzi */
+.drawer-layout {
+    width: 250px; /* Możesz dostosować szerokość do swoich potrzeb */
+    height: 100%;
+    box-shadow: 3px 0 3px rgba(0,0,0,0.2);
+    background: white;
+    padding-left: var(--lumo-space-m); /* Odstęp od krawędzi lewej */
+}

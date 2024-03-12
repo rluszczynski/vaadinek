@@ -1,0 +1,4 @@
+.content-view {
+    border-left: 1px solid #ccc;
+    padding: var(--lumo-space-m);
+}

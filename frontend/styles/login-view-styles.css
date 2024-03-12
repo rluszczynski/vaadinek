@@ -1,0 +1,47 @@
+/* frontend/styles/registration-view-styles.css */
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.registration-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.registration-button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.social-button {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.google-button {
+    background-color: #db4437;
+    color: white;
+}
+
+.facebook-button {
+    background-color: #4267B2;
+    color: white;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.social-icon {
+    padding-right: 5px;
+}
+.forgot-password-button {
+    margin-top: 10px;
+    color: var(--lumo-secondary-text-color);
+    font-size: var(--lumo-font-size-s);
+}
